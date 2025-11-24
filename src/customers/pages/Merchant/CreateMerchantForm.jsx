@@ -354,10 +354,10 @@ const CreateMerchantForm = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/api/v1/merchants", // đổi URL theo backend
-        formData,
-        { headers: { "Content-Type": "multipart/form-data" } }
-      );
+				"https://backend-foodfast-production.up.railway.app/api/v1/merchants", // đổi URL theo backend
+				formData,
+				{ headers: { "Content-Type": "multipart/form-data" } }
+			);
 
       setStatus({
         message: "Đăng ký Merchant thành công! Chúng tôi sẽ xét duyệt hồ sơ của bạn.",
