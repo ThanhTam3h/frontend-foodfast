@@ -48,7 +48,7 @@ const Cart = () => {
       }
       dispatch(getAllCartItems({ merchantId: id, jwt }));
     } catch (err) {
-      console.error("Cập nhật số lượng thất bại", err);
+      console.error("Cập nhật số lượng", err);
     }
   };
 
