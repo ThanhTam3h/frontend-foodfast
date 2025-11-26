@@ -98,7 +98,7 @@ const Cart = () => {
               onClick={() => navigate(`/restaurant/${id}`)}
               className="hidden md:flex items-center text-sm font-semibold rounded-full py-3 px-4 cursor-pointer bg-green-600 text-white hover:shadow-md"
             >
-              Xem menu
+              Xem menu ngày hôm nay
             </div>
           </div>
         )}
